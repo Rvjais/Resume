@@ -7,11 +7,13 @@
     <!-- Use Tailwind CSS for modern styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f3f4f6;
         }
+    
         .resume-container {
             max-width: 960px;
             margin: 2rem auto;
@@ -27,12 +29,27 @@
             color: #1f2937;
         }
         a {
-            color: #3b82f6;
+            color: #0964ed;
             text-decoration: none;
             transition: color 0.2s;
         }
         a:hover {
-            color: #2563eb;
+            color: #436ecc;
+        }
+        .project-item {
+            background-color: #f9fafb;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        .project-item h4 {
+            color: #1f2937;
+        }
+        .project-item a {
+            color: #0964ed;
+        }
+        .project-item a:hover {
+            color: #436ecc;
         }
     </style>
 </head>
@@ -43,6 +60,7 @@
         <header class="text-center mb-10">
             <h1 class="text-4xl font-bold text-gray-800">RANVEER JAISWAL</h1>
             <p class="text-lg text-gray-600 mt-2">MERN-STACK DEVELOPER</p>
+            <p class="text-lg text-gray-600 mt-2">Portfolio: <a href="https://ranveer-portfolio.vercel.app/" target="_blank">https://ranveer-portfolio.vercel.app/</a></p>
         </header>
 
         <!-- Main Content -->
@@ -53,11 +71,11 @@
                 <section class="mb-8">
                     <h3 class="text-2xl font-semibold section-heading">CONTACT</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li>**Phone:** +91 9648165493</li>
-                        <li>**Email:** <a href="mailto:ranveerjais9984@gmail.com">ranveerjais9984@gmail.com</a></li>
-                        <li>**LinkedIn:** <a href="#">[Link to your LinkedIn Profile]</a></li>
-                        <li>**GitHub:** <a href="https://github.com/Rvjais" target="_blank">https://github.com/Rvjais</a></li>
-                        <li>**Portfolio:** <a href="https://ranveer-portfolio.vercel.app/" target="_blank">https://ranveer-portfolio.vercel.app/</a></li>
+                        <li>Phone: <a href="tel:+919648165493">+91 9648165493</a></li>
+                        <li>Email: <a href="mailto:ranveerjais9984@gmail.com">ranveerjais9984@gmail.com</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/ranveer-jaiswal-966289238/">https://www.linkedin.com/in/ranveer-jaiswal</a></li>
+                        <li>GitHub: <a href="https://github.com/Rvjais" target="_blank">https://github.com/Rvjais</a></li>
+                     
                     </ul>
                 </section>
 
@@ -96,7 +114,7 @@
                 <section class="mb-8">
                     <h3 class="text-2xl font-semibold section-heading">COURSES</h3>
                     <p class="text-gray-600">
-                        **JAVA** | Simplilearn
+                        JAVA | Simplilearn
                         <br>
                         <a href="https://tinyurl.com/yd58xx7k" target="_blank" class="mt-1 inline-block">Certificate Link</a>
                     </p>
@@ -106,7 +124,7 @@
                 <section class="mb-8">
                     <h3 class="text-2xl font-semibold section-heading">ACHIEVEMENTS</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li>**Mr. Fresher of my college**</li>
+                        <li>Mr. Fresher of my college</li>
                     </ul>
                 </section>
 
@@ -126,7 +144,7 @@
                 <!-- Summary Section -->
                 <section class="mb-8">
                     <h3 class="text-2xl font-semibold section-heading">SUMMARY</h3>
-                    <p class="text-gray-700 leading-relaxed">Highly motivated MERN stack developer with expertise in **MongoDB, Express.js, React, and Node.js**. Experienced in building **scalable web applications and dynamic user interfaces**. Proficient in full-stack development, **RESTful APIs**, and state management. Strong collaborator with a focus on delivering efficient, user-centric solutions.</p>
+                    <p class="text-gray-700 leading-relaxed">Highly motivated MERN stack developer with expertise in MongoDB, Express.js, React, and Node.js. Experienced in building scalable web applications and dynamic user interfaces. Proficient in full-stack development, RESTful APIs, and state management. Strong collaborator with a focus on delivering efficient, user-centric solutions.</p>
                 </section>
                 
                 <!-- Projects Section -->
@@ -153,24 +171,14 @@
                                 <li>Added functionality for image analysis and interaction.</li>
                             </ul>
                         </div>
-                        <!-- Project 3 -->
-                        <div class="project-item">
-                            <h4 class="text-xl font-bold text-gray-800">Freelancing Projects <span class="text-sm font-normal text-gray-500">(Frontend)</span></h4>
-                            <p class="text-gray-700 mt-2">
-                                **Pooja Infrastructure Solutions** and **Hussain Tour and Travels**
-                            </p>
-                            <ul class="list-disc list-inside mt-1 text-gray-700 space-y-1">
-                                <li>Designed and developed responsive frontend solutions to meet client needs.</li>
-                                <li>Demonstrated proficiency in creating user-friendly interfaces for real-world applications.</li>
-                            </ul>
-                        </div>
+                       
                         <!-- Project 4 -->
                         <div class="project-item">
                             <h4 class="text-xl font-bold text-gray-800">JavaScript Mini Games</h4>
                             <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                                <li>**Snake Game:** <a href="https://snake-game-two-drab.vercel.app/" target="_blank">Live Demo</a></li>
-                                <li>**Tic-Tac-Toe:** <a href="https://tic-tac-toe-chi-five-58.vercel.app/" target="_blank">Live Demo</a></li>
-                                <li>**Stone-Paper-Scissors:** <a href="https://stone-paper-scissors-seven-delta.vercel.app/" target="_blank">Live Demo</a></li>
+                                <li>Snake Game: <a href="https://snake-game-two-drab.vercel.app/" target="_blank">Live Demo</a></li>
+                                <li>Tic-Tac-Toe: <a href="https://tic-tac-toe-chi-five-58.vercel.app/" target="_blank">Live Demo</a></li>
+                                <li>Stone-Paper-Scissors: <a href="https://stone-paper-scissors-seven-delta.vercel.app/" target="_blank">Live Demo</a></li>
                             </ul>
                             <p class="text-gray-600 mt-1">Showcase of core JavaScript skills through interactive game development.</p>
                         </div>
@@ -178,10 +186,10 @@
                         <div class="project-item">
                             <h4 class="text-xl font-bold text-gray-800">Mini-Projects</h4>
                             <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                                <li>**To-Do List:** <a href="https://to-do-list-gamma-rose-92.vercel.app/" target="_blank">Live Demo</a></li>
-                                <li>**Gradient Generator:** <a href="https://rvjais.github.io/Gradient-generator/" target="_blank">Live Demo</a></li>
-                                <li>**I-Pod Player:** <a href="https://rvjais.github.io/I-pod-Player/" target="_blank">Live Demo</a></li>
-                                <li>**Calculator:** <a href="https://rvjais.github.io/Calculator/" target="_blank">Live Demo</a></li>
+                                <li>To-Do List: <a href="https://to-do-list-gamma-rose-92.vercel.app/" target="_blank">Live Demo</a></li>
+                                <li>Gradient Generator: <a href="https://rvjais.github.io/Gradient-generator/" target="_blank">Live Demo</a></li>
+                                <li>I-Pod Player: <a href="https://rvjais.github.io/I-pod-Player/" target="_blank">Live Demo</a></li>
+                                <li>Calculator: <a href="https://rvjais.github.io/Calculator/" target="_blank">Live Demo</a></li>
                             </ul>
                             <p class="text-gray-600 mt-1">Reinforced fundamental development skills with these functional web applications.</p>
                         </div>
